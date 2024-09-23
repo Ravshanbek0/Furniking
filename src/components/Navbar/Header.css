@@ -303,7 +303,7 @@
     width: 669px;
     height: 511px;
     padding: 49px 31px;
-    background-image: url('../public/Rectangle 35.png');
+    background-image: url('../Rectangle 35.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -342,13 +342,13 @@
 }
 
 .ll {
-    background-image: url('../public/Rectangle 34.png');
+    background-image: url('../Rectangle 34.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .rr {
-    background-image: url('../public/Rectangle 33.png');
+    background-image: url('../Rectangle 33.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
