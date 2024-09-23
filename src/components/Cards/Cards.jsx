@@ -75,19 +75,19 @@ function Cards({ data ,setData,shop_data,setShop_data}) {
                             <p className="name">{item.name}</p>
                             <div className="price">
                                 <p className="price1">{item.price} <del>{item.del}</del></p>
-                                <img src="./public/card/ratings.png" alt="" />
+                                <img src="./card/ratings.png" alt="" />
                             </div>
                         </div>
                     })}
                     {/* <div className="card">
                         <span className="new">New</span>
                         <span className="new sale">Sale</span>
-                        <img src="./public/card/card1.png" alt="" className="card_img" />
+                        <img src="./card/card1.png" alt="" className="card_img" />
                         <p className="categroy">CHAIR</p>
                         <p className="name">Minimal LCD chair</p>
                         <div className="price">
                             <p className="price1">$180 <del>250$</del></p>
-                            <img src="./public/card/ratings.png" alt="" />
+                            <img src="./card/ratings.png" alt="" />
                         </div>
                     </div> */}
 

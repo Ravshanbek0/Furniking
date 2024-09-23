@@ -8,7 +8,7 @@ import { BiMenuAltLeft } from "react-icons/bi";
 import Cards from '../Cards/Cards';
 
 function Header({data,setNav_id,nav_id,setShop_data,shop_data,setData}) {
-    const [mainImg, setMainImg] = useState("./public/header/mainHead.png")
+    const [mainImg, setMainImg] = useState("./header/mainHead.png")
     return (
 
         <header className='header'>
@@ -54,18 +54,18 @@ function Header({data,setNav_id,nav_id,setShop_data,shop_data,setData}) {
                             <div className="head_main_imgs">
                                 <img src={mainImg} alt="" className="hMain_img" />
                                 <div className="hIMgs">
-                                    <div onClick={() => { setMainImg("./public/header/head1.png") }} className="hLittle1">
-                                        <img src="./public/header/head1.png" alt="" />
+                                    <div onClick={() => { setMainImg("./header/head1.png") }} className="hLittle1">
+                                        <img src="./header/head1.png" alt="" />
                                         <p>120$</p>
                                         <span>Office Desk Chair</span>
                                     </div>
-                                    <div onClick={() => { setMainImg("./public/header/head2.png") }} className="hLittle1">
-                                        <img src="./public/header/head2.png" alt="" />
+                                    <div onClick={() => { setMainImg("./header/head2.png") }} className="hLittle1">
+                                        <img src="./header/head2.png" alt="" />
                                         <p>180$</p>
                                         <span>Home Alisa Sofa</span>
                                     </div>
-                                    <div onClick={() => { setMainImg("./public/header/head3.png") }} className="hLittle1">
-                                        <img src="./public/header/head3.png" alt="" />
+                                    <div onClick={() => { setMainImg("./header/head3.png") }} className="hLittle1">
+                                        <img src="./header/head3.png" alt="" />
                                         <p>250$</p>
                                         <span>Modern Chair</span>
                                     </div>
@@ -75,19 +75,19 @@ function Header({data,setNav_id,nav_id,setShop_data,shop_data,setData}) {
                     </div>
                     <div className="xizmatlar">
                         <div>
-                            <img src="./public/xizmatlar/xizmatlar1.png" alt="" />
+                            <img src="./xizmatlar/xizmatlar1.png" alt="" />
                             <p><span>Free Shipping</span><br />Orders over $100</p>
                         </div>
                         <div>
-                            <img src="./public/xizmatlar/xizmatlar3.png" alt="" />
+                            <img src="./xizmatlar/xizmatlar3.png" alt="" />
                             <p><span>Smart Gift Card</span><br />Buy $1000 to get card</p>
                         </div>
                         <div>
-                            <img src="./public/xizmatlar/xizmatlar4.png" alt="" />
+                            <img src="./xizmatlar/xizmatlar4.png" alt="" />
                             <p><span>Quick Payment</span><br />100% secure payment</p>
                         </div>
                         <div>
-                            <img src="./public/xizmatlar/xizmatlar2.png" alt="" />
+                            <img src="./xizmatlar/xizmatlar2.png" alt="" />
                             <p><span>24/7 Support</span><br />Quick support</p>
                         </div>
                     </div>

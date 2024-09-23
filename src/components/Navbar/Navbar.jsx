@@ -31,7 +31,7 @@ function Navbar({ shop_data }) {
             <div className="nav">
                 <nav className='container'>
                     <div className="nav_bar">
-                        <Link to={'/'}><img src="./public/logo.png" alt="" className="logo" /></Link>
+                        <Link to={'/'}><img src="./logo.png" alt="" className="logo" /></Link>
                         <div className="nav_search">
                             <input type="text" placeholder='Search here' />
                             <select name="" id="">

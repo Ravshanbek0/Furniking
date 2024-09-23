@@ -23,7 +23,7 @@ function Shop({ shop_data }) {
                         <p className="name">{item.name}</p>
                         <div className="price">
                             <p className="price1">{item.price} <del>{item.del}</del></p>
-                            <img src="./public/card/ratings.png" alt="" />
+                            <img src="./card/ratings.png" alt="" />
                         </div>
                     </div>
                 })}
